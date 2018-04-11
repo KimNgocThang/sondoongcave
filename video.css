@@ -14,16 +14,42 @@
     -webkit-font-smoothing:antialiased;
 }
 
+#header{
 
-
-.container{
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
   margin: auto;
-  min-height: 1200px;
+  font-size: 19px;
+  font-family: sans-serif;
+  width: 100%;
+}
+.navbar-header{
+  margin-left: 50px;
+}
+.image{
+  margin: auto;
+  position: absolute;
+}
+.margin{
+  margin: 12px;
+}
+.none-color{
+  background-color: rgba(0, 0, 0, 0.6 );
+  border-color: rgba(255, 0, 255, 0);
+}
+.color{
+  background-color: black ;
+  border-color: white;
 }
 
+.container{
+  margin-top: 100px;
+	position: relative;
+	width: 100%;
+	-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  clear: both;
+}
   /* định dạng kích thước danh sách video */
 .pb-video-container {
     width: 100%;
@@ -64,13 +90,7 @@
     margin-bottom: 70px;
 }
 
-/* định dạng cho nut back to top*/
-#top {
-	position: fixed;
-	right: 10px;
-	bottom: 120px;
-	display: none;
-}
+
 /* định dạng cho phafanf footer */
 #footer{
   margin-top: 50px;

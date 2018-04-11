@@ -1,3 +1,13 @@
+/*header*/
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop()> $('#navfix').height())
+      $('#navfix').addClass('color');
+    else
+       $('#navfix').removeClass('color');
+  });
+});
+  
 /*---- back to top----*/
 $(document).ready(function(){
   $(window).scroll(function(){
